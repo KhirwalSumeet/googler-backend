@@ -1,0 +1,19 @@
+{
+  "generator-express": {
+    "promptValues": {
+      "type": "MVC",
+      "viewEngine": "Handlebars",
+      "cssPreprocessor": "None",
+      "database": "PostgreSQL",
+      "buildTool": "Grunt"
+    }
+  },
+  "generator-rest": {
+    "srcDir": "src",
+    "apiDir": "api",
+    "authMethods": [
+      "facebook",
+      "google"
+    ]
+  }
+}
